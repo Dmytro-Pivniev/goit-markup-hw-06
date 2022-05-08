@@ -118,9 +118,11 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-links:not(:last-child) {
@@ -177,10 +179,11 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email-first-icon,
@@ -202,6 +205,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1600px;
+
   margin: 0 auto;
 }
 
@@ -378,9 +382,10 @@ img {
 .command-list {
   display: flex;
   list-style: none;
+  justify-content: center;
+
   padding: 0;
   margin: 0;
-  justify-content: center;
 }
 
 .command-image:not(:last-child) {
@@ -419,6 +424,7 @@ img {
 .command-soc-list {
   display: flex;
   justify-content: center;
+
   margin-bottom: 30px;
 }
 
@@ -430,12 +436,13 @@ img {
   width: 44px;
   height: 44px;
   background-color: var(--primary-white-color);
-  transition: color 250ms, background-color 250ms;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   fill: #afb1b8;
+
+  transition: color 250ms, background-color 250ms;
 }
 
 .command-soc-link:hover,
@@ -477,6 +484,7 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transform: scale(1);
+
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -540,9 +548,10 @@ img {
   line-height: 1.71;
   cursor: default;
   color: var(--primary-white-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   margin-bottom: 9px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-map .link:hover,
@@ -622,6 +631,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
+
   margin-bottom: 20px;
 }
 
@@ -668,6 +678,7 @@ img {
 .filter-list {
   display: flex;
   justify-content: center;
+
   margin-bottom: 50px;
 }
 
@@ -713,9 +724,10 @@ img {
   left: 976px;
   top: 174px;
   background: var(--section-background-color);
-  transition: color 250ms, background-color 250ms;
   border-radius: 4px;
   border: none;
+
+  transition: color 250ms, background-color 250ms;
 }
 
 /*-----------------------------------Foto progects----------------------------*/
@@ -723,6 +735,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
   margin-right: -30px;
   margin-bottom: -30px;
 }
@@ -765,11 +778,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   background-color: rgba(33, 150, 243, 0.9);
-  padding: 63px 24px 63px 24px;
   height: 100%;
+  overflow: auto;
+
+  padding: 63px 24px 63px 24px;
+
   transform: translateY(100%);
   transition: transform 250ms, background-color 250ms;
-  overflow: auto;
 }
 
 .progect-title-text {
@@ -807,6 +822,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+
   transition: opacity 250ms, visibility 250ms;
 }
 
@@ -814,11 +830,13 @@ img {
   position: absolute;
   width: 528px;
   min-height: 581px;
-  padding: 40px;
+
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+
+  padding: 40px;
 }
 
 .modal-close-btn {
@@ -834,6 +852,7 @@ img {
   align-items: center;
   cursor: pointer;
   outline: none;
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -874,9 +893,11 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding-left: 42px;
   outline: none;
+
+  padding-left: 42px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-label {
@@ -885,6 +906,7 @@ img {
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--title-text-color);
+
   margin-bottom: 4px;
 }
 
@@ -896,6 +918,7 @@ img {
   position: absolute;
   left: 15px;
   top: 50%;
+
   transform: translateY(-50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -916,9 +939,10 @@ img {
   padding: 12px 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-bottom: 20px;
   resize: none;
   outline: none;
+
+  margin-bottom: 20px;
 }
 
 .input-check {
@@ -987,6 +1011,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--primary-white-color);
   border: none;
-  margin: 0 auto;
   cursor: pointer;
+
+  margin: 0 auto;
 }
